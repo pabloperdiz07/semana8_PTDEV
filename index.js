@@ -20,7 +20,7 @@ async function getPokemon(pokemon) {
     if (encontrado){
       getType(pokemon,url)
     } else {
-      console.log("pokemon não encontrado")
+      console.log("Pokemon não encontrado na lista")
     }
 
   } catch (error) {
